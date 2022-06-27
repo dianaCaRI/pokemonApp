@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
+  background: #40E0D0; 
+  background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
+  background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0); 
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.fondolist{
+
+width: 300px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+max-width: 300px;
+margin: auto;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imagen{
+background: rgb(255, 254, 254);
+width: 300px;
+position: absolute;
+top: 30%;
+left: 1000px;
+border-radius: 10px;
+text-align: center;
+padding:50px;
+
+ 
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.boton {
+  background-color: #ebf7eb; /* Green */
+  border: none;
+  color: rgb(38, 171, 49);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.imagenpok{
+  width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
